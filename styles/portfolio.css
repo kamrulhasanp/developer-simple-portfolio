@@ -31,7 +31,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -197,4 +197,12 @@ input{
 }
 .contact a{
     text-decoration: none;
+}
+/* footer style */
+
+footer{
+    background: #757575;
+    color: #FFF8F3;
+    text-align: center;
+    height: 30px;
 }

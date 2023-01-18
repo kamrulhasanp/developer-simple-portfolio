@@ -219,6 +219,7 @@ footer{
         gap: 20px;
         padding: 10px;
     }
+
     nav ul{
         flex-direction: column;
         gap: 20px;
@@ -248,10 +249,34 @@ footer{
         padding: 20px;
         gap: 10px;
     }
-    .contact{
+
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .header, nav{
+        margin: 0;
+        padding: 10px;
+    }
+    nav li{
+        margin-left: 0;
+    }
+ 
+    .banner{
+        margin: 0 20px;
+        align-items: center;
+    }
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact, .banner{
         flex-direction: column;
     }
-}
-.hide{
-    display: none;
+
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 0 0 0 5px;
+    }
 }

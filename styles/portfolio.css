@@ -205,4 +205,53 @@ footer{
     color: #FFF8F3;
     text-align: center;
     height: 30px;
+    
+}
+/* Responsive style */
+@media screen and (max-width: 576px)  {
+    nav,
+    .banner, 
+    .skills-container, 
+    .resume-content, 
+    .about-info-container, 
+    .contact{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .about, .contact{
+        padding: 20px;
+    }
+
+    .banner{
+        margin: 0 20px;
+        align-items: center;
+    }
+
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 0 0 0 5px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width:992px) {
+    .about, .contact{
+        padding: 20px;
+        gap: 10px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+}
+.hide{
+    display: none;
 }
